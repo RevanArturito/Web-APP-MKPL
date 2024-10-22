@@ -1,0 +1,59 @@
+.btn-login {
+    background-color: white;
+    color: #96AD66;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .navbar-nav .nav-link {
+    margin: 0 10px;
+  }
+  
+  .custom-margin-right{
+    padding-left: 25rem;
+  
+  }
+  .custom-collapse {
+    background-color: #96AD66; 
+    height: 10.97694840834248vh; 
+    text-align: center; 
+    transition: all 0.3s ease-in-out;  
+  }
+  
+  .custom-navbar-open{
+    height: 30.97694840834248vh; 
+    padding: 20px 0;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  html, body {
+    height: 100%;
+}
+  
+  .navbar {
+    flex-shrink: 0;
+  }
+  
+  .content {
+    flex-grow: 1;
+    width: 100%;
+    padding: 20px;
+  }
+  main{
+    flex:1
+  }
+  footer{
+    background-color: #96AD66;
+  }
+  @media (max-width: 620px) {
+    .custom-margin-right{
+      padding-left: 0rem;
+    
+    }
+  }
+  

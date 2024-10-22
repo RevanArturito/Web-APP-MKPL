@@ -1,0 +1,28 @@
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  html, body {
+    height: 100%;
+}
+  
+  .content {
+    flex-grow: 1;
+    width: 100%;
+    padding: 20px;
+  }
+  main{
+    flex:1
+  }
+  footer{
+    background-color: #96AD66;
+  }
+  @media (max-width: 620px) {
+    .custom-margin-right{
+      padding-left: 0rem;
+    
+    }
+  }
+  

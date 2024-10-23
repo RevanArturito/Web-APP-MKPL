@@ -1,18 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 footer{
   background-color: #96AD66;
 }
 
-main {
+.section-1 {
+  min-height: 80vh;
   background-color: white;
 }
 
 .home-container-1 {
-  min-height: 70%;
+  min-height: 50vh;
   background-color: white;  
-}
-
-.text-container-sec-1 h1 {
-  font-size: 2rem;
 }
 
 .text-container-sec-1 span {
@@ -29,7 +32,7 @@ main {
 }
 
 .home-container-2 {
-  min-height: 30%;
+  min-height: 30vh;
   background-color: #96AD66;
 }
 
@@ -38,3 +41,25 @@ main {
   color: white;
   text-align: center;
 }
+
+
+
+/* section 2 */
+.section-2 {
+  min-height: 100vh;
+  background-color: #35383F;
+}
+
+.feat-container {
+  width: 100%;
+}
+
+.feat-item {
+  max-width: 25%;
+}
+
+.section-2 h1 {
+  color: white;
+}
+
+

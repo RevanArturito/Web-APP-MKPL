@@ -16,16 +16,39 @@
         <nav-bar></nav-bar>
     </header>
 
-    <main>
-        <div class="content">
-          <h2>Welcome to the Home Page</h2>
-          <p>This is the home page content.</p>
-        </div>   
+    <main class="container-fluid">
+         <div class="row align-items-center mx-5 my-5 home-container-1 align-items-center">
+            <img class="img-sec-1 col home-img" src="/Assets/home-image.png" alt="home-image">
+            <div class="col text-container-sec-1">
+                <h1>
+                    Temukan Ruang Aman Bersama <br>
+                    <span>Teman Bicara</span>
+                </h1>
+                <button type="button" class="btn-sec-1 btn btn-primary btn-lg mt-4 mb-4">Get Started</button>
+            </div>
+         </div>
+         <div class="row py-3 align-items-center home-container-2 ">
+            <div class="col-sm home-item align-items-center py-4">
+                <h1>1/4</h1>
+                <p>people face mental health issue</p>
+            </div>
+            <div class="col-sm home-item align-items-center py-4 col-sm">
+                <h1>264</h1>
+                <p>million live with depression</p>
+            </div>
+            <div class="col-sm home-item align-items-center py-4 col-sm">
+                <h1>80%</h1>
+                <p>don't get the care they need</p>
+            </div>
+            <div class="col-sm home-item align-items-center py-4 col-sm">
+                <h1>700.000</h1>
+                <p>suicides every year</p>
+            </div>
+         </div>
     </main>
-
-    <footer class="text-white ">
+    <!-- <footer class="text-white">
             <component-footer></component-footer>
-    </footer>
+    </footer> -->
 
     <script type="module" src="../../Controller/navBar/navBarController.js"></script>
     <script type="module" src="../../Controller/footer/footerController.js"></script>

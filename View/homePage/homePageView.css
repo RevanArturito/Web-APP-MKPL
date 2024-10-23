@@ -55,11 +55,17 @@ footer{
 }
 
 .feat-item {
-  max-width: 25%;
+
+  flex: auto;
 }
 
 .section-2 h1 {
   color: white;
 }
+
+.feat-item:hover {
+  scale: 1.2;
+}
+
 
 

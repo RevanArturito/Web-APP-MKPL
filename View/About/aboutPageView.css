@@ -1,21 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .section {
-  min-height: 100vh; 
-  display: flex; 
-  align-items: center; 
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  scroll-snap-align: start; 
+  scroll-snap-align: start;
+}
+
+.section.half-height {
+  min-height: 50vh;
+}
+
+.title-card img {
+  width: 80px;  
+  height: 80  px; 
+  object-fit: contain; 
+}
+
+.medicine {
+
+  position: absolute;
+  z-index: -1;
+}
+
+.person {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  z-index: -1;
+  right: 0; 
 }
 
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: "Poppins", sans-serif;
 }
-html, body {
+
+html,
+body {
   height: 100%;
 }
-nav-bar{
+
+nav-bar {
   position: fixed;
   top: 0;
   left: 0;
@@ -28,15 +57,22 @@ nav-bar{
   width: 100%;
   padding: 20px;
 }
-main{
-  flex:1;
+
+main {
+  flex: 1;
 }
-footer{
+
+footer {
   background-color: #96AD66;
 }
+
+.title-card {
+  width: 20vw;
+}
+
 @media (max-width: 620px) {
-  .custom-margin-right{
+  .custom-margin-right {
     padding-left: 0rem;
-  
+
   }
 }

@@ -1,4 +1,40 @@
-.btn-login {
+.section {
+  min-height: 100vh; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  scroll-snap-align: start; 
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+html, body {
+  height: 100%;
+}
+
+.content {
+  flex-grow: 1;
+  width: 100%;
+  padding: 20px;
+}
+main{
+  flex:1;
+}
+footer{
+  background-color: #96AD66;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1030;
+
+  flex-shrink: 1;
+}
+.custom-collapse .btn{
   background-color: white;
   color: #96AD66;
   border-radius: 20px;
@@ -15,6 +51,7 @@
   padding-left: 25rem;
 
 }
+
 .custom-collapse {
   background-color: #96AD66; 
   height: 10.97694840834248vh; 
@@ -25,18 +62,15 @@
 .custom-navbar-open{
   height: 30.97694840834248vh; 
   padding: 20px 0;
+  display: block;
 }
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+.nav-item .active{
+  border-bottom: 3px solid white;
+  
 }
-html, body {
-  height: 100%;
-}
-
-.navbar {
-  flex-shrink: 0;
+.nav-item .active ::after{
+border-radius: 50px;
+  
 }
 
 .content {

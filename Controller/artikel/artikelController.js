@@ -1,19 +1,3 @@
-// function createCard(cardData) {
-//     return `
-//         <div class="col-4 mb-4 px-5">
-//             <div class="card custom-card-border" style="height: 18rem;">
-//                 <img src="${cardData.imgSrc}" class="card-img-top" alt="${cardData.title}">
-//                 <div class="card-body">
-//                     <h5 class="card-title">${cardData.title}</h5>
-//                     <div class="text-end">
-//                         <a href="artikelDetailPageView.html?id=${cardData.id}" class="custom-card-link">Selengkapnya</a>
-//                     </div>
-//                 </div>
-//             </div>
-//         </div>
-//     `;
-// }
-
 // // Menggunakan AJAX untuk mengambil data dari file JSON
 // $(document).ready(function () {
 //     $.ajax({
@@ -39,7 +23,7 @@ let cardData = []; // Array untuk menyimpan data artikel
 
 function createCard(cardData) {
     return `
-        <div class="col-4 mb-4 px-5">
+        <div class="col-12 col-sm-6 col-md-4 mb-4 px-5">
             <div class="card custom-card-border" style="height: 18rem;">
                 <img src="${cardData.imgSrc}" class="card-img-top" alt="${cardData.title}">
                 <div class="card-body">

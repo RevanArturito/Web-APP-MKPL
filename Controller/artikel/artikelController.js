@@ -92,7 +92,6 @@ $(document).ready(function () {
 
     // Get the 'id' parameter from the URL
     const articleId = getQueryParam('id');
-    print(articleId)
 
     if (articleId) {
         // AJAX request to get the JSON data

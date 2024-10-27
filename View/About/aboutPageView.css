@@ -19,10 +19,16 @@
 }
 
 .medicine {
-
   position: absolute;
   z-index: -1;
 }
+
+.mobilePreview1 {
+  position: absolute;
+  z-index: -1;
+  right: 0; 
+}
+
 
 .person {
   width: 500px;

@@ -90,17 +90,17 @@ $(document).ready(function () {
         return urlParams.get(param);
     }
 
-    // Get the 'id' parameter from the URL
+    // Get 'id' parameter dari URL
     const articleId = getQueryParam('id');
 
     if (articleId) {
-        // AJAX request to get the JSON data
+        // AJAX request to get JSON data
         $.ajax({
-            url: '/Teman-Bicara-Web/Controller/artikel/cardDatas.json', // Path to the JSON file
+            url: '/Teman-Bicara-Web/Controller/artikel/cardDatas.json', 
             method: 'GET',
             dataType: 'json',
             success: function (data) {
-                // Find the article that matches the ID
+                // Cari article yang sesuai dengan 'id' dari parameter
                 const article = data.find(item => item.id === articleId);
 
                 if (article) {

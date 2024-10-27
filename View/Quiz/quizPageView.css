@@ -1,3 +1,13 @@
+
+.btn-login {
+  background-color: white;
+  color: #96ad66;
+  border-radius: 20px;
+  padding: 5px 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -36,9 +46,82 @@ footer{
   text-decoration: none;
 }
 
+
 .navbar-nav .nav-link {
   margin: 0 10px;
 }
+
+
+.custom-margin-right {
+  padding-left: 25rem;
+}
+
+.custom-collapse {
+  background-color: #96ad66;
+  height: 10.97694840834248vh;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-navbar-open {
+  height: 30.97694840834248vh;
+  padding: 20px 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.navbar {
+  flex-shrink: 0;
+}
+
+.content {
+  flex-grow: 1;
+  width: 100%;
+  padding: 20px;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background-color: #96ad66;
+}
+
+.progress {
+  height: 35px;
+  margin-bottom: 2rem;
+  background-color: #96AD66;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.progress-label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.bg{
+  background-color: #FBFFD8;
+}
+
+.card-result {
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #96AD66;
+}
+
+@media (max-width: 620px) {
+  .custom-margin-right {
+    padding-left: 0rem;
 
 .custom-margin-right{
   padding-left: 25rem;
@@ -71,4 +154,107 @@ border-radius: 50px;
     
     }
   }
-  
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url("../../Assets/Font/Poppins-Bold.ttf") format("poppins-bold");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url("../../Assets/Font/Poppins-Medium.ttf") format("poppins-mendium");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url("../../Assets/Font/Poppins-SemiBold.ttf") format("poppins-semibold");
+  font-weight: 600;
+  font-style: normal;
+}
+
+.btn-quiz {
+  width: 300px;
+  height: 50px;
+  border-radius: 7px;
+  background-color: #afc67f;
+  color: white;
+  border: none;
+  padding-top: 12px;
+}
+
+.btn-quiz:hover {
+  background-color: #96ad66;
+  color: white;
+}
+
+#options {
+  background-color: white;
+  font-family: "poppins";
+  font-size: 16;
+  color: #7d944d;
+  border: 1px solid #7d944d;
+}
+
+#next-btn,
+#prev-btn {
+  border: 3px solid #96ad66;
+  text-decoration: none;
+  font-family: "poppins";
+  font-size: 500;
+  color: #96ad66;
+}
+
+#sidebar-soal {
+  background-color: #c8df98;
+  position: absolute;
+  right: 0;
+  transition: all 0.2s ease;
+  width: 50px;
+  height: 250px;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+#sidebar-soal.active {
+  width: 325px;
+}
+
+#sidebar-soal #btn-sidebar {
+  margin: 10px;
+  cursor: pointer;
+}
+
+#main-content.active {
+  margin-left: 250px;
+  transition: margin-left 0.2s;
+}
+
+#no {
+  width: 35px;
+  height: 40px;
+  display: flex;
+  cursor: pointer;
+}
+
+#no.active {
+  border: 2px solid #7d944d;
+}
+
+#no.complete::before {
+  width: 100%;
+  height: 50%;
+  background-color: #96ad66;
+}
+
+#btn-selesai a {
+  text-decoration: none;
+  border: 2px solid #7d944d;
+  background-color: #7d944d;
+  color: white;
+
+}

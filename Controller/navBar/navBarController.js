@@ -54,7 +54,6 @@ class navBarView extends HTMLElement {
                 nav.classList.add('active');
             });
         });
-        
     }
 }
 customElements.define('nav-bar', navBarView);

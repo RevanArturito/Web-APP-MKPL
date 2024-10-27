@@ -117,15 +117,7 @@ footer {
 .title-card {
   width: 20vw;
 }
-
-@media (max-width: 620px) {
-  .custom-margin-right {
-    padding-left: 0rem;
-
-  }
-}
-
-.navbar {
+navbar {
   position: fixed;
   top: 0;
   left: 0;
@@ -171,11 +163,12 @@ footer {
 border-radius: 50px;
   
 }
-  @media (max-width: 620px) {
-    .custom-margin-right{
-      padding-left: 0rem;
-    
-    }
+@media (max-width: 620px) {
+  .custom-margin-right {
+    padding-left: 0rem;
+
   }
+}
+
   
 

@@ -4,7 +4,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-footer{
+footer {
   background-color: #96AD66;
 }
 
@@ -15,7 +15,7 @@ footer{
 
 .home-container-1 {
   min-height: 50vh;
-  background-color: white;  
+  background-color: white;
 }
 
 .text-container-sec-1 span {
@@ -67,3 +67,52 @@ footer{
   scale: 1.2;
 }
 
+navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1030;
+  flex-shrink: 1;
+}
+
+.custom-collapse .btn {
+  background-color: white;
+  color: #96AD66;
+  border-radius: 20px;
+  padding: 5px 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+  margin: 0 10px;
+}
+
+.custom-margin-right {
+  padding-left: 25rem;
+
+}
+
+.custom-collapse {
+  background-color: #96AD66;
+  height: 10.97694840834248vh;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-navbar-open {
+  height: 30.97694840834248vh;
+  padding: 20px 0;
+  display: block;
+}
+
+.nav-item .active {
+  border-bottom: 3px solid white;
+
+}
+
+.nav-item .active ::after {
+  border-radius: 50px;
+
+}

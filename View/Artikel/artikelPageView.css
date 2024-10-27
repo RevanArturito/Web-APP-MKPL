@@ -1,4 +1,39 @@
-.btn-login {
+.section {
+  min-height: 100vh; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  scroll-snap-align: start; 
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+html, body {
+  height: 100%;
+}
+
+.content {
+  flex-grow: 1;
+  width: 100%;
+  padding: 20px;
+}
+main{
+  flex:1;
+}
+footer{
+  background-color: #96AD66;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1030;
+  flex-shrink: 1;
+}
+.custom-collapse .btn{
   background-color: white;
   color: #96AD66;
   border-radius: 20px;
@@ -15,6 +50,7 @@
   padding-left: 25rem;
 
 }
+
 .custom-collapse {
   background-color: #96AD66; 
   height: 10.97694840834248vh; 
@@ -25,18 +61,15 @@
 .custom-navbar-open{
   height: 30.97694840834248vh; 
   padding: 20px 0;
+  display: block;
 }
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+.nav-item .active{
+  border-bottom: 3px solid white;
+  
 }
-html, body {
-  height: 100%;
-}
-
-.navbar {
-  flex-shrink: 0;
+.nav-item .active ::after{
+border-radius: 50px;
+  
 }
 
 .content {
@@ -44,8 +77,74 @@ html, body {
   width: 100%;
   padding: 20px;
 }
+
+.custom-card {
+  background-color: #7D944D;
+  color: white;
+}
+
+.custom-card:last-child {
+  background-color: #7D944D;
+  color: white;
+  padding: 0;
+}
+
+
+.custom-card-border {
+  border: 3px solid #7D944D;
+  border-radius: 0.5rem;
+  transition: transform 0.2s;
+}
+
+.custom-card-border:hover {
+  transform: scale(1.05);
+}
+
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custom-card-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.custom-card-link:hover {
+  color: #7D944D;
+}
+
+/* .article-image {
+  max-width: 100%;
+  height: 200px;
+} */
+
+.article-content {
+  text-overflow: ellipsis;
+  width: 800px;
+}
+
+.pagination-icon {
+  width: 12px; 
+  height: auto; 
+  cursor: pointer;
+}
+#card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* #prev[disabled] {
+  opacity: 0.5; 
+  pointer-events: none; 
+  } */
+  
 main{
-  flex:1
+  flex:1;
+  padding-top: 80px;
+  padding-bottom: 50px;
 }
 footer{
   background-color: #96AD66;
@@ -53,6 +152,17 @@ footer{
 @media (max-width: 620px) {
   .custom-margin-right{
     padding-left: 0rem;
-  
+    
+  }
+}
+@media (max-width: 576px) {
+  .custom-card-border {
+      height: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .custom-card-border {
+      height: 20rem;
   }
 }

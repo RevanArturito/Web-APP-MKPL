@@ -48,15 +48,20 @@
 
     <main>
         <div id="content">
-            <div id="section1" class="section">
-                <div class="container mt-4">
-                    <div class="row" id="card-container">
-                        <!-- Card akan dihasilkan oleh JavaScript -->
+            <div class="container mt-5">
+                <div class="row header">
+                    <div class="col-md-8">
+                        <h1 class="article-title" id="article-title">Loading...</h1>
+                        <div class="article-info">
+                            <span id="article-date">Loading...</span><br>
+                            <span class="author" id="article-author">Loading...</span>
+                        </div>
+                        <div class="article-content mt-4 " id="article-content">
+                            <p>Loading content...</p>
+                        </div>
                     </div>
-                    <div id="pagination" class="d-flex justify-content-center mt-4">
-                        <img id="prev" src="../../Assets/prev-icon.png" alt="Previous" class="pagination-icon">
-                        <span id="page-info" class="mx-3"></span>
-                        <img id="next" src="../../Assets/next-icon.png" alt="Next" class="pagination-icon">
+                    <div class="col-md-4">
+                        <img src="" alt="Mental Health" class="article-image" id="article-image">
                     </div>
                 </div>
             </div>

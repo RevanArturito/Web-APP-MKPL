@@ -4,7 +4,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-footer{
+footer {
   background-color: #96AD66;
 }
 
@@ -15,7 +15,7 @@ footer{
 
 .home-container-1 {
   min-height: 50vh;
-  background-color: white;  
+  background-color: white;
 }
 
 .text-container-sec-1 span {
@@ -44,6 +44,7 @@ footer{
 
 
 
+
 /* section 2 */
 .section-2 {
   min-height: 100vh;
@@ -67,3 +68,26 @@ footer{
   scale: 1.2;
 }
 
+.section-3 {
+  min-height: 100vh;
+
+}
+
+.section-3 h1 {
+  color: white;
+}
+
+.store:hover {
+  scale: 1.2;
+  transition: all 0.3s ease-in-out;
+}
+
+.article-card{
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+
+.article-card:hover{
+  scale: 1.1;
+  transition: all 0.3s ease-in-out;
+}

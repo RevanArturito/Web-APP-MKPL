@@ -1,0 +1,138 @@
+[
+    {
+        "id": "anxiety-daily-life",
+        "title": "Understanding Anxiety and How It Affects Your Daily Life",
+        "text": "Anxiety is more than just a feeling of nervousness. It can interfere with daily activities such as work, school, and relationships. This article delves into the various forms of anxiety, from generalized anxiety disorder to panic attacks, and provides practical tips to help you manage and reduce symptoms through self-care and professional treatment options.",
+        "imgSrc": "/Teman-Bicara-Web/Assets/cardArtikel1.png",
+        "date": "29 November 2023",
+        "author": "Dr. Cokorda"
+    },
+    {
+        "id": "mindfulness-stress-anxiety",
+        "title": "The Power of Mindfulness to Reduce Stress and Anxiety",
+        "text": "Mindfulness is a powerful tool to reduce stress and improve mental health. This article explores the science behind mindfulness, how it rewires the brain to handle stress better, and practical exercises you can incorporate into your daily routine to help calm your mind and improve your overall mental well-being.",
+        "imgSrc": "/Teman-Bicara-Web/Assets/cardArtikel1.png",
+        "date": "30 November 2023",
+        "author": "Dr. Cokorda"
+    },
+    {
+        "id": "managing-depression",
+        "title": "Managing Depression & Finding Ways to Improve Your Wellbeing",
+        "text": "Depression is one of the most common mental health issues, and understanding it is the first step toward recovery. This article breaks down the different types of depression, signs and symptoms to look out for, and offers coping mechanisms such as therapy, medication, and lifestyle changes that can help improve your quality of life.",
+        "imgSrc": "/Teman-Bicara-Web/Assets/cardArtikel1.png",
+        "date": "1 December 2023",
+        "author": "Dr. Cokorda"
+    },
+    {
+        "id": "self-care-mental-wellness",
+        "title": "Self-Care for Mental Wellness: Daily Habits to Maintain Balance",
+        "text": "Self-care is essential for mental health, yet it's often neglected. This article focuses on building healthy daily habits such as maintaining a balanced diet, getting regular exercise, ensuring adequate sleep, and setting boundaries to protect your mental and emotional health. Learn how small, consistent actions can have a big impact on your overall well-being.",
+        "imgSrc": "/Teman-Bicara-Web/Assets/cardArtikel1.png",
+        "date": "2 December 2023",
+        "author": "Dr. Cokorda"
+    },
+    {
+        "id": "stigma-mental-health",
+        "title": "Breaking the Stigma Around Mental Health in Modern Society",
+        "text": "Despite growing awareness, mental health stigma remains a significant barrier for those seeking help. This article explores the roots of mental health stigma, how it affects people struggling with mental illnesses, and what society can do to create a more open and accepting environment for discussing and addressing mental health issues.",
+        "imgSrc": "/Teman-Bicara-Web/Assets/cardArtikel1.png",
+        "date": "3 December 2023",
+        "author": "Dr. Cokorda"
+    },
+    {
+        "id": "overcoming-burnout",
+        "title": "Overcoming Burnout: Practical Steps to Recover and Recharge",
+        "text": "Burnout is not just a state of exhaustion; it can severely impact your mental and physical health if not addressed. This article discusses the signs of burnout, its causes, and actionable steps you can take to recover, such as taking breaks, managing workload, setting clear boundaries, and seeking professional help when necessary.",
+        "imgSrc": "/Teman-Bicara-Web/Assets/cardArtikel1.png",
+        "date": "4 December 2023",
+        "author": "Dr. Cokorda"
+    },
+    {
+        "id": "building-emotional-resilience",
+        "title": "Building Emotional Resilience for Handling Life's Challenges",
+        "text": "Emotional resilience is the ability to adapt to stressful situations and bounce back from hardships. This article explains why emotional resilience is important, how it can be developed through practices like mindfulness, positive thinking, and building strong social connections, and how it helps you face life's challenges with more confidence and strength.",
+        "imgSrc": "/Teman-Bicara-Web/Assets/cardArtikel1.png",
+        "date": "5 December 2023",
+        "author": "Dr. Cokorda"
+    },
+    {
+        "id": "understanding-ptsd",
+        "title": "Understanding PTSD and How to Manage Its Symptoms",
+        "text": "Post-Traumatic Stress Disorder (PTSD) affects many individuals, often triggered by a traumatic event. This article explains the symptoms of PTSD, including flashbacks, nightmares, and avoidance behaviors, and provides tips for managing symptoms through therapy, support groups, and self-care.",
+        "imgSrc": "/Teman-Bicara-Web/Assets/cardArtikel1.png",
+        "date": "6 December 2023",
+        "author": "Dr. Cokorda"
+    },
+    {
+        "id": "importance-of-sleep",
+        "title": "The Importance of Sleep for Mental Health",
+        "text": "Sleep plays a vital role in mental health. This article discusses the connection between sleep and mental well-being, how poor sleep can exacerbate issues like anxiety and depression, and offers tips for improving sleep hygiene.",
+        "imgSrc": "/Teman-Bicara-Web/Assets/cardArtikel1.png",
+        "date": "7 December 2023",
+        "author": "Dr. Cokorda"
+    },
+    {
+        "id": "coping-with-grief",
+        "title": "Coping with Grief: A Guide to Finding Peace After Loss",
+        "text": "Grief is a natural response to loss, but it can feel overwhelming. This article offers insights into the grieving process, from initial shock to eventual acceptance, and provides strategies for coping, including counseling and support networks.",
+        "imgSrc": "/Teman-Bicara-Web/Assets/cardArtikel1.png",
+        "date": "8 December 2023",
+        "author": "Dr. Cokorda"
+    },
+    {
+        "id": "setting-healthy-boundaries",
+        "title": "Setting Healthy Boundaries for Better Mental Health",
+        "text": "Healthy boundaries are essential for maintaining mental health. This article explores why boundaries matter, how to set them, and tips for reinforcing them in various aspects of life, from personal relationships to work.",
+        "imgSrc": "/Teman-Bicara-Web/Assets/cardArtikel1.png",
+        "date": "9 December 2023",
+        "author": "Dr. Cokorda"
+    },
+    {
+        "id": "impact-of-social-media",
+        "title": "The Impact of Social Media on Mental Health",
+        "text": "Social media can be a double-edged sword for mental health. This article examines both the positive and negative effects of social media usage and offers guidance on how to use it mindfully to protect your well-being.",
+        "imgSrc": "/Teman-Bicara-Web/Assets/cardArtikel1.png",
+        "date": "10 December 2023",
+        "author": "Dr. Cokorda"
+    },
+    {
+        "id": "art-of-letting-go",
+        "title": "The Art of Letting Go: Moving Past Negative Experiences",
+        "text": "Holding on to negative experiences can harm your mental health. This article explores techniques to help you let go of grudges and past traumas, fostering a mindset of peace and acceptance.",
+        "imgSrc": "/Teman-Bicara-Web/Assets/cardArtikel1.png",
+        "date": "11 December 2023",
+        "author": "Dr. Cokorda"
+    },
+    {
+        "id": "recognizing-toxic-relationships",
+        "title": "Recognizing and Escaping Toxic Relationships",
+        "text": "Toxic relationships can drain your energy and harm your mental health. This article helps you recognize signs of a toxic relationship, offers advice on setting boundaries, and provides tips for building healthier connections.",
+        "imgSrc": "/Teman-Bicara-Web/Assets/cardArtikel1.png",
+        "date": "12 December 2023",
+        "author": "Dr. Cokorda"
+    },
+    {
+        "id": "managing-social-anxiety",
+        "title": "Managing Social Anxiety and Building Confidence",
+        "text": "Social anxiety can make interactions stressful. This article discusses strategies for managing social anxiety, such as cognitive-behavioral therapy, exposure techniques, and self-compassion practices to help you feel more at ease in social settings.",
+        "imgSrc": "/Teman-Bicara-Web/Assets/cardArtikel1.png",
+        "date": "13 December 2023",
+        "author": "Dr. Cokorda"
+    },
+    {
+        "id": "positive-self-talk",
+        "title": "The Power of Positive Self-Talk for Mental Wellness",
+        "text": "Positive self-talk can improve mental resilience. This article explores the importance of internal dialogue, how to replace negative thoughts with positive ones, and exercises to develop a healthier mindset.",
+        "imgSrc": "/Teman-Bicara-Web/Assets/cardArtikel1.png",
+        "date": "14 December 2023",
+        "author": "Dr. Cokorda"
+    },
+    {
+        "id": "nutrition-mental-health",
+        "title": "Nutrition and Mental Health: Eating for a Better Mindset",
+        "text": "Nutrition plays a crucial role in mental health. This article discusses how certain foods can improve mood and cognitive function, and offers guidance on creating a diet that supports mental well-being.",
+        "imgSrc": "/Teman-Bicara-Web/Assets/cardArtikel1.png",
+        "date": "15 December 2023",
+        "author": "Dr. Cokorda"
+    }
+]

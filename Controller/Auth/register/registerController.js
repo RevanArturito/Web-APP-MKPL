@@ -15,7 +15,10 @@ $(".btn").on('click', function (e) {
         $(".text-danger").text("Passwords do not match!");
         return;
     }
-    if (username && password & confirmPass) {
+    console.log(username)
+    console.log(password)
+    console.log(confirmPass)
+    if (username && password && confirmPass) {
         saveUserData(username, password);
         window.location.href = '../login/loginPageView.html';
     } else {

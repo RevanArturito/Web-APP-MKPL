@@ -96,11 +96,7 @@ $(document).ready(function () {
     if (articleId) {
         // AJAX request to get JSON data
         $.ajax({
-<<<<<<< HEAD
             url: '../../Controller/artikel/cardDatas.json', // Path to the JSON file
-=======
-            url: '/Teman-Bicara-Web/Controller/artikel/cardDatas.json', 
->>>>>>> 20a6677046ea0920385722f658ffb7b8a7fea6b5
             method: 'GET',
             dataType: 'json',
             success: function (data) {

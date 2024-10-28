@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins" />
+    <title>soal quiz</title>
+    <link rel="stylesheet" href="../Quiz/quizPageView.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg custom-collapse ">
+          <div class="container-fluid">
+              <button class="navbar-toggler"  type="button" data-bs-toggle="collapse"
+                  data-bs-target="#basic-navbar-nav" aria-controls="basic-navbar-nav" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand custom-margin-right" href="../homePage/homePageView.html">
+                  <img src="../../Assets/Logo-Container.png" alt="Logo" style="height: 40px;">
+              </a>
+              <div class="collapse navbar-collapse justify-content-center" id="basic-navbar-nav">
+                  <ul class="navbar-nav align-items-center text-center">
+                      <li class="nav-item ">
+                          <a class="nav-link text-white mx-3 fw-bold "
+                              href="../Artikel/artikelPageView.html">Artikel</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link text-white mx-3 fw-bold " href="../Quiz/quizPageView.html">Quiz &
+                              Test</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link text-white mx-3 fw-bolder" href="../About/aboutPageView.html">Tentang</a>
+                      </li>
+                  </ul>
+                  <a class="btn btn-login mx-2" href="../login/loginPageView.html">Masuk</a>
+              </div>
+          </div>
+      </nav>
+  </header>
+
+    <main>
+      <div class="section">
+        <div class="container-fluid content d-flex justify-content-between  ">
+          <div class="container d-flex justify-content-start" id="main-content">
+            <div class="px-5 text-start">
+              <h3 class="fw-bold" style="font-family: 'poppins';">Quiz</h3>
+              <p class="counting"></p>
+            </div>
+  
+            <div>
+              <div class="p-4 rounded-2" style="background-color: #c8df98">
+                <div class="w-100 fw-bold">
+                  <h3 class="fw-bold" id="questions" style="font-size: 20px"></h3>
+                  <div class="form-check w-100 py-2 px-5 rounded-5" id="options">
+                    <input
+                      class="form-check-input rad"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                    ></input>
+                    <label class="form-check-label label1" for="flexRadioDefault1" id="flexRadioDefault1">
+                    </label>
+                  </div>
+                  <div class="form-check w-100 py-2 px-5 rounded-5" id="options">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault2"
+                      checked
+                    />
+                    <label class="form-check-label label2" for="flexRadioDefault2">
+                    </label>
+                  </div>
+                  <div class="form-check w-100 py-2 px-5 rounded-5" id="options">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault3"
+                    />
+                    <label class="form-check-label label3" for="flexRadioDefault3">
+                    </label>
+                  </div>
+                  <div class="form-check w-100 py-2 px-5 rounded-5" id="options">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault4"
+                      checked
+                    />
+                    <label class="form-check-label label4" for="flexRadioDefault4">
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="p-3">
+                <div class="row d-flex">
+                  <div
+                    class="rounded-2 d-inline-flex align-items-center col-3"
+                    id="prev-btn"
+                    style="cursor: pointer;"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 16 16"
+                      width="16"
+                      height="16"
+                    >
+                      <path
+                        d="M9.78 12.78a.75.75 0 0 1-1.06 0L4.47 8.53a.75.75 0 0 1 0-1.06l4.25-4.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L6.06 8l3.72 3.72a.75.75 0 0 1 0 1.06Z"
+                      ></path>
+                    </svg>
+                    <span class="p-2">Sebelumnya</span>
+                  </div>
+                  <div class="col-6"></div>
+                  <div
+                    class="rounded-2 d-inline-flex align-items-center col-3"
+                    id="next-btn"
+                    style="cursor: pointer;"
+                  >
+                    <span class="p-2">Selanjutnya</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 16 16"
+                      width="16"
+                      height="16"
+                      style="color: #35383f"
+                    >
+                      <path
+                        d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="rounded-2 d-flex flex-column" id="sidebar-soal">
+            <div class="icon">
+              
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="30"
+                height="30"
+                id="btn-sidebar"
+              >
+                <path
+                  d="M15.28 5.22a.75.75 0 0 1 0 1.06L9.56 12l5.72 5.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-6.25-6.25a.75.75 0 0 1 0-1.06l6.25-6.25a.75.75 0 0 1 1.06 0Z"
+                ></path>
+              </svg>
+            </div>
+  
+            <div class="d-flex p-3 row">
+              <div
+                class="card m-2 text-center col-auto"
+                id="no"
+                style="width: 43px"
+                data-index="1"
+              >
+                1
+                <div class="card-body"></div>
+              </div>
+              <div
+                class="card m-2 text-center col-auto"
+                id="no"
+                style="width: 43px"
+                data-index="2"
+              >
+                2
+                <div class="card-body"></div>
+              </div>
+              <div
+                class="card m-2 text-center col-auto"
+                id="no"
+                style="width: 43px"
+                data-index="3"
+              >
+                3
+                <div class="card-body"></div>
+              </div>
+              <div
+                class="card m-2 text-center col-auto"
+                id="no"
+                style="width: 43px"
+                data-index="4"
+              >
+                4
+                <div class="card-body"></div>
+              </div>
+              <div
+                class="card m-2 text-center col-auto"
+                id="no"
+                style="width: 43px"
+                data-index="5"
+              >
+                5
+                <div class="card-body"></div>
+              </div>
+              <div
+                class="card m-2 text-center col-auto"
+                id="no"
+                style="width: 43px"
+                data-index="6"
+              >
+                6
+                <div class="card-body"></div>
+              </div>
+              <div
+                class="card m-2 text-center col-auto"
+                id="no"
+                style="width: 43px"
+                data-index="7"
+              >
+                7
+                <div class="card-body"></div>
+              </div>
+              <div
+                class="card m-2 text-center col-auto"
+                id="no"
+                style="width: 43px"
+                data-index="8"
+              >
+                8
+                <div class="card-body"></div>
+              </div>
+              <div
+                class="card m-2 text-center col-auto"
+                id="no"
+                style="width: 43px"
+                data-index="9"
+              >
+                9
+                <div class="card-body"></div>
+              </div>
+              <div
+                class="card m-2 text-center col-auto"
+                id="no"
+                style="width: 43px"
+                data-index="10"
+              >
+                10
+                <div class="card-body"></div>
+              </div>
+            </div>
+            <div class="px-3" id="btn-selesai">
+              <a href="../Quiz/resultPageView.html" class="p-2 rounded-4">Selesai</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="text-white ">
+      <div class="container p-5">
+          <div class="row">
+              <div class="col-md-3 d-flex h-50 justify-content-center">
+
+                  <img src="../../Assets/logo-container.png" alt="" />
+
+              </div>
+              <div class="col-md-3 d-flex flex-column justify-content-center">
+                  <h4>Tentang Kami</h4>
+                  <ul class="list-unstyled">
+                      <li>konseling</li>
+                      <li>Assesment</li>
+                      <li>Artikel</li>
+                  </ul>
+              </div>
+              <div class="col-md-3 d-flex flex-column justify-content-center">
+                  <h4>bantuan</h4>
+                  <ul class="list-unstyled">
+                      <li>Kontak</li>
+                      <li>FAQ</li>
+                      <li>kebijakan Privasi</li>
+                  </ul>
+              </div>
+              <div class="col-md-3 ">
+                  <h4>Aplikasi Kami</h4>
+                  <div class="d-flex">
+                      <a href="#"><img src="../../Assets/play-store.png" alt="Play Store" class="img-fluid me-2"
+                              style="width: 40px;"></a>
+                      <a href="#"><img src="../../Assets/Apple-icon.png" alt="App Store" class="img-fluid"
+                              style="width: 40px;"></a>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-12 text-start mt-3">
+                  <hr class="border-white" style="border-width: 5px;">
+                  <p class="mb-0">Copyright 2024.</p>
+              </div>
+          </div>
+      </div>
+
+  </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../../Controller/quizController/quizController.js"></script>
+    <script
+      type="module"
+      src="../../Controller/navBar/navBarController.js"
+    ></script>
+    <script
+      type="module"
+      src="../../Controller/footer/footerController.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

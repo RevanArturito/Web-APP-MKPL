@@ -1,0 +1,92 @@
+[
+    {
+       "question": "Bagaimana perasaan Anda secara umum dalam dua minggu terakhir?",
+       "options": [
+          "a) Merasa bahagia dan penuh energi",
+          "b) Netral, tidak terlalu bahagia atau sedih",
+          "c) Merasa sedih atau lesu",
+          "d) Sangat tertekan dan tidak bersemangat"
+       ]
+    },
+    {
+       "question": "Apakah Anda kehilangan minat atau kesenangan dalam hal-hal yang biasanya Anda nikmati?",
+       "options": [
+          "a) Tidak, saya masih menikmati aktivitas yang saya sukai",
+          "b) Kadang-kadang",
+          "c) Sering kehilangan minat",
+          "d) Hampir selalu merasa tidak tertarik"
+       ]
+    },
+    {
+       "question": "Apakah Anda sering merasa cemas atau khawatir berlebihan tanpa alasan jelas?",
+       "options": [
+          "a) Tidak, saya jarang merasa cemas",
+          "b) Kadang-kadang",
+          "c) Sering merasa cemas",
+          "d) Hampir selalu merasa sangat cemas"
+       ]
+    },
+    {
+       "question": "Apakah Anda sering merasa gelisah, seperti tidak bisa duduk diam?",
+       "options": [
+          "a) Tidak, saya merasa tenang",
+          "b) Kadang-kadang merasa gelisah",
+          "c) Sering merasa gelisah",
+          "d) Hampir selalu merasa sangat gelisah"
+       ]
+    },
+    {
+       "question": "Apakah Anda mengalami masalah tidur, seperti sulit tidur atau terlalu banyak tidur?",
+       "options": [
+          "a) Tidak, tidur saya normal",
+          "b) Kadang-kadang sulit tidur",
+          "c) Sering sulit tidur atau tidur terlalu lama",
+          "d) Hampir selalu mengalami masalah tidur"
+       ]
+    },
+    {
+       "question": "Apakah Anda merasa lelah atau kehabisan energi, meskipun tidak melakukan aktivitas berat?",
+       "options": [
+          "a) Tidak, saya merasa bugar dan berenergi",
+          "b) Kadang-kadang merasa lelah",
+          "c) Sering merasa sangat lelah",
+          "d) Hampir selalu merasa lelah dan lesu"
+       ]
+    },
+    {
+       "question": "Apakah Anda mengalami kesulitan berkonsentrasi atau membuat keputusan sederhana?",
+       "options": [
+          "a) Tidak, saya bisa berkonsentrasi dengan baik",
+          "b) Kadang-kadang mengalami kesulitan",
+          "c) Sering merasa sulit berkonsentrasi",
+          "d) Hampir selalu mengalami kesulitan fokus"
+       ]
+    },
+    {
+       "question": "Apakah Anda pernah berpikir untuk menyakiti diri sendiri atau mengakhiri hidup?",
+       "options": [
+          "a) Tidak, saya tidak pernah berpikir tentang hal tersebut",
+          "b) Pernah berpikir, tapi tidak serius",
+          "c) Sering muncul di pikiran",
+          "d) Hampir setiap hari muncul pikiran untuk melakukannya"
+       ]
+    },
+    {
+       "question": "Apakah Anda mengalami perubahan nafsu makan (makan terlalu banyak atau terlalu sedikit)?",
+       "options": [
+          "a) Tidak, nafsu makan saya stabil",
+          "b) Kadang-kadang mengalami perubahan nafsu makan",
+          "c) Sering mengalami perubahan yang signifikan (Nilai 3)",
+          "d) Hampir selalu mengalami perubahan besar dalam pola makan"
+       ]
+    },
+    {
+       "question": "Apakah Anda mengalami penurunan berat badan atau peningkatan berat badan secara tiba-tiba tanpa sebab jelas?",
+       "options": [
+          "a) Tidak ada perubahan berat badan",
+          "b) Penurunan atau peningkatan sedikit",
+          "c) Perubahan signifikan dalam berat badan",
+          "d) Perubahan sangat signifikan dan mengkhawatirkan"
+       ]
+    }
+ ]

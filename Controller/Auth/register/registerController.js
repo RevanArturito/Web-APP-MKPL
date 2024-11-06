@@ -1,6 +1,6 @@
 function saveUserData(username, password) {
     let users = JSON.parse(localStorage.getItem('users')) || [];
-    users.push({ email: username, password: password });  // save as 'email' to match login
+    users.push({ email: username, password: password });  
     localStorage.setItem('users', JSON.stringify(users));
 }
 
@@ -20,7 +20,7 @@ $(".btn").on('click', function (e) {
     console.log(confirmPass)
     if (username && password && confirmPass) {
         saveUserData(username, password);
-        window.location.href = '../login/loginPageView.html';
+        window.location.href = '../homePage/homePageView.html';
     } else {
         $(".text-danger").text('Please fill out all fields.');
     }

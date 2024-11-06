@@ -55,7 +55,7 @@ function renderCards(page) {
 $(document).ready(function () {
     // AJAX untuk mengambil data
     $.ajax({
-        url: '/Teman-Bicara-Web/Controller/artikel/cardDatas.json',
+        url: '../../Controller/artikel/cardDatas.json',
         method: 'GET',
         dataType: 'json',
         success: function (data) {
@@ -96,7 +96,7 @@ $(document).ready(function () {
     if (articleId) {
         // AJAX request to get JSON data
         $.ajax({
-            url: '/Teman-Bicara-Web/Controller/artikel/cardDatas.json', 
+            url: '../../Controller/artikel/cardDatas.json', // Path to the JSON file
             method: 'GET',
             dataType: 'json',
             success: function (data) {

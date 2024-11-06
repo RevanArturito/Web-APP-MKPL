@@ -1,4 +1,3 @@
-
 .btn-login {
   background-color: white;
   color: #96ad66;
@@ -8,27 +7,15 @@
   text-decoration: none;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-html, body {
-  height: 100%;
-}
-main{
-  flex:1
-}
-footer{
-  background-color: #96AD66;
-}
 .section {
-  min-height: 100vh; 
-  display: flex; 
-  align-items: center; 
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  scroll-snap-align: start; 
+  scroll-snap-align: start;
 }
+
+/* CSS navbar */
 .navbar {
   position: fixed;
   top: 0;
@@ -37,7 +24,8 @@ footer{
   z-index: 1030;
   flex-shrink: 1;
 }
-.custom-collapse .btn{
+
+.custom-collapse .btn {
   background-color: white;
   color: #96AD66;
   border-radius: 20px;
@@ -46,18 +34,17 @@ footer{
   text-decoration: none;
 }
 
-
 .navbar-nav .nav-link {
   margin: 0 10px;
 }
 
-
 .custom-margin-right {
   padding-left: 25rem;
+
 }
 
 .custom-collapse {
-  background-color: #96ad66;
+  background-color: #96AD66;
   height: 10.97694840834248vh;
   text-align: center;
   transition: all 0.3s ease-in-out;
@@ -66,6 +53,16 @@ footer{
 .custom-navbar-open {
   height: 30.97694840834248vh;
   padding: 20px 0;
+  display: block;
+}
+
+.nav-item .active {
+  border-bottom: 3px solid white;
+
+}
+
+.nav-item .active ::after {
+  border-radius: 50px;
 }
 
 body {
@@ -77,10 +74,6 @@ body {
 html,
 body {
   height: 100%;
-}
-
-.navbar {
-  flex-shrink: 0;
 }
 
 .content {
@@ -109,7 +102,7 @@ footer {
   font-weight: 500;
 }
 
-.bg{
+.bg {
   background-color: #FBFFD8;
 }
 
@@ -123,36 +116,6 @@ footer {
   .custom-margin-right {
     padding-left: 0rem;
 
-.custom-margin-right{
-  padding-left: 25rem;
-
-}
-
-.custom-collapse {
-  background-color: #96AD66; 
-  height: 10.97694840834248vh; 
-  text-align: center; 
-  transition: all 0.3s ease-in-out;  
-}
-
-.custom-navbar-open{
-  height: 30.97694840834248vh; 
-  padding: 20px 0;
-  display: block;
-}
-.nav-item .active{
-  border-bottom: 3px solid white;
-  
-}
-.nav-item .active ::after{
-border-radius: 50px;
-  
-}
-  @media (max-width: 620px) {
-    .custom-margin-right{
-      padding-left: 0rem;
-    
-    }
   }
 }
 

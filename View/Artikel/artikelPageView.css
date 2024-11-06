@@ -25,6 +25,7 @@ main{
 footer{
   background-color: #96AD66;
 }
+/* CSS navbar */
 .navbar {
   position: fixed;
   top: 0;
@@ -65,13 +66,10 @@ footer{
 }
 .nav-item .active{
   border-bottom: 3px solid white;
-  
 }
 .nav-item .active ::after{
-border-radius: 50px;
-  
+  border-radius: 50px;
 }
-
 .content {
   flex-grow: 1;
   width: 100%;

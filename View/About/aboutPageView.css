@@ -13,9 +13,9 @@
 }
 
 .title-card img {
-  width: 80px;  
-  height: 80  px; 
-  object-fit: contain; 
+  width: 80px;
+  height: 80 px;
+  object-fit: contain;
 }
 
 .medicine {
@@ -26,7 +26,7 @@
 .mobilePreview1 {
   position: absolute;
   z-index: -1;
-  right: 0; 
+  right: 0;
 }
 
 
@@ -35,13 +35,13 @@
   height: 500px;
   position: absolute;
   z-index: -1;
-  right: 0; 
+  right: 0;
 }
 
 .card1 {
   transition: all 0.3s ease;
   border: 1px solid transparent;
-  
+
   &:hover {
     transform: translateY(-4px);
     border: 1px solid #7D944D;
@@ -50,7 +50,7 @@
 }
 
 .card-team {
-  position: relative;  
+  position: relative;
   transition: all 0.3s ease;
   border: 1px solid transparent;
   filter: brightness(50%)
@@ -58,25 +58,25 @@
 
 .card-team:not(:first-child) {
   margin-left: -100px;
-} 
+}
 
-.card-team:hover ~ .card-team {
-  transform: translateX(50px); 
+.card-team:hover~.card-team {
+  transform: translateX(50px);
 }
 
 .card-team:hover {
   transform: translateY(-20px);
-  z-index: 1;  
+  z-index: 1;
   border: 1px solid #7D944D;
   filter: brightness(100%);
 }
 
 .card-team-title {
-    background-color: #7D944D;
-    margin-left: -1rem;
-    margin-right: -1rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+  background-color: #7D944D;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 body {
@@ -91,13 +91,6 @@ body {
   height: 100%;
 }
 
-nav-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1030;
-}
 
 .content {
   flex-grow: 1;
@@ -115,16 +108,8 @@ footer {
 
 
 .title-card {
-  width: 20vw;
+width: 20vw;
 }
-
-@media (max-width: 620px) {
-  .custom-margin-right {
-    padding-left: 0rem;
-
-  }
-}
-
 .navbar {
   position: fixed;
   top: 0;
@@ -165,17 +150,14 @@ footer {
 }
 .nav-item .active{
   border-bottom: 3px solid white;
-  
 }
 .nav-item .active ::after{
-border-radius: 50px;
-  
+  border-radius: 50px;
 }
-  @media (max-width: 620px) {
-    .custom-margin-right{
-      padding-left: 0rem;
-    
-    }
-  }
-  
 
+@media (max-width: 620px) {
+  .custom-margin-right {
+    padding-left: 0rem;
+
+  }
+}
